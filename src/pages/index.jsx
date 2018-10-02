@@ -180,7 +180,7 @@ const Index = () => (
               bg="linear-gradient(to right, #D4145A 0%, #FBB03B 100%)"
             >
             A virtual assistant for google chrome.
-
+            </ProjectCard>
             <ProjectCard
               title="Karrot"
               link="https://github.com/yunity/karrot-frontend"
