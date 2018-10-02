@@ -184,7 +184,7 @@ const Index = () => (
             <ProjectCard
               title="Karrot"
               link="https://github.com/yunity/karrot-frontend"
-              bg="linear-gradient(to right, #D4145A 0%, #FBB03B 100%)"
+              bg="linear-gradient(to right, #662D8C 0%, #ED1E79 100%)"
             >
             Contributer to<br />
             A web platform to support foodsaving groups worldwide.
