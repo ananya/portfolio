@@ -3,6 +3,7 @@ const config = require('./config/website');
 const pathPrefix = config.pathPrefix === '/' ? '' : config.pathPrefix;
 
 module.exports = {
+  pathPrefix: "/portfolio",
   /* General Information */
   pathPrefix: config.pathPrefix,
   siteMetadata: {
