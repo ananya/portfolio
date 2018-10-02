@@ -70,7 +70,7 @@ const ProjectsWrapper = styled.div`
   ${tw('flex flex-wrap justify-between mt-8')};
   display: grid;
   grid-gap: 1rem;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(3, 1fr);
   @media (max-width: 1200px) {
     grid-gap: 1rem;
   }
@@ -180,21 +180,16 @@ const Index = () => (
               bg="linear-gradient(to right, #D4145A 0%, #FBB03B 100%)"
             >
             A virtual assistant for google chrome.
-            </ProjectCard>
+
             <ProjectCard
-              title="Break the Brick"
-              link="https://ananya-agrawal.github.io/break-the-brick-game/"
-              bg="linear-gradient(to right, #662D8C 0%, #ED1E79 100%)"
+              title="Karrot"
+              link="https://github.com/yunity/karrot-frontend"
+              bg="linear-gradient(to right, #D4145A 0%, #FBB03B 100%)"
             >
-            A simple, interactive java-script game.
+            Contributer to<br />
+            A web platform to support foodsaving groups worldwide.
             </ProjectCard>
-            <ProjectCard
-              title="Girls Do Code"
-              link="https://github.com/Girls-Do-Code"
-              bg="linear-gradient(to right, #009245 0%, #FCEE21 100%)"
-            >
-            A community for girls.
-            </ProjectCard>
+            
             <ProjectCard
               title="Pelican- A better Facebook"
               link="https://github.com/aviary-apps/Pelican"
@@ -202,6 +197,39 @@ const Index = () => (
             >
             Chrome Extension to make Facebook minimal and focused.
             </ProjectCard>
+            
+            <ProjectCard
+              title="Girls Do Code"
+              link="https://github.com/Girls-Do-Code"
+              bg="linear-gradient(to right, #009245 0%, #FCEE21 100%)"
+            >
+            A community for girls.
+            </ProjectCard>
+
+            <ProjectCard
+              title="Question Answer Portal"
+              link="https://github.com/ananya-agrawal/Q-A-Portal"
+              bg="linear-gradient(to right, #D585FF 0%, #00FFEE 100%)"
+            >
+            A django based discussion portal for college students.
+            </ProjectCard>
+            
+            <ProjectCard
+              title="Pure CSS Pens"
+              link="https://github.com/ananya-agrawal/pure-css-pens"
+              bg="linear-gradient(to right, #009245 0%, #FCEE21 100%)"
+            >
+            Collection of Pure CSS Pens.
+            </ProjectCard>
+
+            <ProjectCard
+              title="Break the Brick"
+              link="https://ananya-agrawal.github.io/break-the-brick-game/"
+              bg="linear-gradient(to right, #662D8C 0%, #ED1E79 100%)"
+            >
+            A simple, interactive java-script game.
+            </ProjectCard>
+
           </ProjectsWrapper>
         </Inner>
       </Content>
