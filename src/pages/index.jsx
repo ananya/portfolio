@@ -159,7 +159,7 @@ const Index = () => (
       <Content speed={0.4} offset={0}>
         <Hero>
           <BigTitle>
-            Hey, <br /> I am Ananya Agrawal.
+            Hey, <br />I am Ananya Agrawal.
           </BigTitle>
           <Subtitle>Student | Open-source Enthusiast</Subtitle>
         </Hero>
@@ -176,27 +176,31 @@ const Index = () => (
           <ProjectsWrapper>
             <ProjectCard
               title="Anna Assistant"
-              link="https://github.com/ananya-agrawal/Anna"
+              link="https://github.com/Anna-Assistant/Anna"
               bg="linear-gradient(to right, #D4145A 0%, #FBB03B 100%)"
             >
+            A virtual assistant for google chrome.
             </ProjectCard>
             <ProjectCard
               title="Break the Brick"
-              link="https://github.com/ananya-agrawal/break-the-brick-game"
+              link="https://ananya-agrawal.github.io/break-the-brick-game/"
               bg="linear-gradient(to right, #662D8C 0%, #ED1E79 100%)"
             >
+            A simple, interactive java-script game.
             </ProjectCard>
             <ProjectCard
               title="Girls Do Code"
-              link="https://github.com/ananya-agrawal/Girls-Do-Code.github.io"
+              link="https://github.com/Girls-Do-Code"
               bg="linear-gradient(to right, #009245 0%, #FCEE21 100%)"
             >
+            A community for girls.
             </ProjectCard>
             <ProjectCard
               title="Pelican- A better Facebook"
               link="https://github.com/aviary-apps/Pelican"
               bg="linear-gradient(to right, #D585FF 0%, #00FFEE 100%)"
             >
+            Chrome Extension to make Facebook minimal and focused.
             </ProjectCard>
           </ProjectsWrapper>
         </Inner>
@@ -253,10 +257,10 @@ const Index = () => (
               pursuing my bachelors in electronics and communication. <br />
               Other than sleeping all day, my interest lies in between web apps and open source. <br />
               So, chase my wildly unnatural dreams coming from a non computer science undergraduate.<br />
-              I am a part of FOSS society of my college where we build cool things like question answer portal :P <br />
+              I am a part of FOSS society of my college where we build cool things like <a href="https://github.com/ananya-agrawal/qaportal">Question Answer Portal </a> :P <br />
               I am pretty lucky as I had been a finalist of opencode, an opensource competetion for web, apps and everything else tat matters 
               to this wild world of CSE.<br />
-              I had previously build Pelican Facebook, Anna Assistant, qa Portal. I am the founder member of Girls Do Code.<br />
+              I had previously build <a href="https://github.com/aviary-apps/Pelican">Pelican Facebook</a>, <a href="https://github.com/Anna-Assistant/Anna">Anna Assistant</a>, <a href="https://github.com/ananya-agrawal/qaportal">Question Answer Portal </a>. I am the founder member of <a href="https://github.com/Girls-Do-Code">Girls Do Code </a>.<br />
               I sleep a lot coz I miss a lot during the hackathons I participate and the eagerness to see people merge my PR.
 
             </AboutSub>
