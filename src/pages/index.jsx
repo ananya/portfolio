@@ -208,7 +208,7 @@ const Index = () => (
 
             <ProjectCard
               title="Question Answer Portal"
-              link="https://github.com/ananya-agrawal/Q-A-Portal"
+              link="https://github.com/ananya/Q-A-Portal"
               bg="linear-gradient(to right, #D585FF 0%, #00FFEE 100%)"
             >
             A django based discussion portal for college students.
@@ -216,7 +216,7 @@ const Index = () => (
             
             <ProjectCard
               title="Pure CSS Pens"
-              link="https://github.com/ananya-agrawal/pure-css-pens"
+              link="https://github.com/ananya/pure-css-pens"
               bg="linear-gradient(to right, #009245 0%, #FCEE21 100%)"
             >
             Collection of Pure CSS Pens.
@@ -224,7 +224,7 @@ const Index = () => (
 
             <ProjectCard
               title="Break the Brick"
-              link="https://ananya-agrawal.github.io/break-the-brick-game/"
+              link="https://ananya.github.io/break-the-brick-game/"
               bg="linear-gradient(to right, #662D8C 0%, #ED1E79 100%)"
             >
             A simple, interactive java-script game.
@@ -285,10 +285,10 @@ const Index = () => (
               pursuing my bachelors in electronics and communication. <br />
               Other than sleeping all day, my interest lies in between web apps and open source. <br />
               So, chase my wildly unnatural dreams coming from a non computer science undergraduate.<br />
-              I am a part of FOSS society of my college where we build cool things like <a href="https://github.com/ananya-agrawal/qaportal">Question Answer Portal </a> :P <br />
+              I am a part of FOSS society of my college where we build cool things like <a href="https://github.com/ananya/qaportal">Question Answer Portal </a> :P <br />
               I am pretty lucky as I had been a finalist of opencode, an opensource competetion for web, apps and everything else tat matters 
               to this wild world of CSE.<br />
-              I had previously build <a href="https://github.com/aviary-apps/Pelican">Pelican Facebook</a>, <a href="https://github.com/Anna-Assistant/Anna">Anna Assistant</a>, <a href="https://github.com/ananya-agrawal/qaportal">Question Answer Portal </a>. I am the founder member of <a href="https://github.com/Girls-Do-Code">Girls Do Code </a>.<br />
+              I had previously build <a href="https://github.com/aviary-apps/Pelican">Pelican Facebook</a>, <a href="https://github.com/Anna-Assistant/Anna">Anna Assistant</a>, <a href="https://github.com/ananya/qaportal">Question Answer Portal </a>. I am the founder member of <a href="https://github.com/Girls-Do-Code">Girls Do Code </a>.<br />
               I sleep a lot coz I miss a lot during the hackathons I participate and the eagerness to see people merge my PR.
 
             </AboutSub>
@@ -323,7 +323,7 @@ const Index = () => (
           <Title>Meet me at</Title>
           <ContactText>
             <a href="https://twitter.com/AgrawalAnanyaa">Twitter</a> or find me on other platforms:{' '}
-            <a href="https://github.com/ananya-agrawal">Github</a> &{' '}
+            <a href="https://github.com/ananya">Github</a> &{' '}
             <a href="https://medium.com/@ananyaagrawal125">Medium</a>
           </ContactText>
         </Inner>
