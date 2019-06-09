@@ -64,6 +64,10 @@ const Title = styled.h1`
 const Subtitle = styled.p`
   ${tw('text-2xl lg:text-4xl font-sans text-white mt-8 xxl:w-3/4')};
   text-shadow: 0 2px 15px rgba(0, 0, 0, 0.2);
+  a {
+    color: rgb(224, 118, 40);
+    text-decoration: none;
+  }
 `;
 
 const ProjectsWrapper = styled.div`
@@ -162,6 +166,7 @@ const Index = () => (
             Hey, <br />I am Ananya Agrawal.
           </BigTitle>
           <Subtitle>Student | Open-source Enthusiast</Subtitle>
+          <Subtitle>Wanna Hire me? Here's <a target="_blank" href="https://drive.google.com/file/d/11KeH04fybFv-_nBYbVFGdQ7juGS3ZeLK/view?usp=sharing">My Resume</a></Subtitle>
         </Hero>
       </Content>
       <DividerMiddle
@@ -174,20 +179,33 @@ const Index = () => (
         <Inner>
           <Title>Projects</Title>
           <ProjectsWrapper>
+            
+            <ProjectCard
+              title="Hazel"
+              link="https://github.com/gauthamzz/hazel"
+              bg="linear-gradient(to right, #D4145A 0%, #FBB03B 100%)"
+            >
+            Saas which helps build, train and ship custom deep learning models using a simple visual interface as
+             a REST api to your app. Drag and drop UI allows users to generate deep learning models on the fly.
+            </ProjectCard>
+
             <ProjectCard
               title="Anna Assistant"
               link="https://github.com/Anna-Assistant/Anna"
-              bg="linear-gradient(to right, #D4145A 0%, #FBB03B 100%)"
+              bg="linear-gradient(to right, #009245 0%, #FCEE21 100%)"
             >
-            A virtual assistant for google chrome.
+            A community driven ambitious virtual assistant on google chrome to help people automate actions on chrome. 
+            Anna helps automate 20+ tasks via voice.
             </ProjectCard>
+
             <ProjectCard
               title="Karrot"
               link="https://github.com/yunity/karrot-frontend"
               bg="linear-gradient(to right, #662D8C 0%, #ED1E79 100%)"
             >
             Contributer to<br />
-            A web platform to support foodsaving groups worldwide.
+            A web application to support and organise foodsaving groups worldwide. 
+            Schedule pichups, gather feedback, build in message support, notification via mail, android apps and webbrowser push.
             </ProjectCard>
             
             <ProjectCard
@@ -195,29 +213,23 @@ const Index = () => (
               link="https://github.com/aviary-apps/Pelican"
               bg="linear-gradient(to right, #D585FF 0%, #00FFEE 100%)"
             >
-            Chrome Extension to make Facebook minimal and focused.
+            A google chrome extension to make Facebook more minimal and focused.
+            Minimal mode supports only timeline and chats while Focused mode replaces the timeline with a new quqote and background on every load.
             </ProjectCard>
             
             <ProjectCard
-              title="Girls Do Code"
-              link="https://github.com/Girls-Do-Code"
-              bg="linear-gradient(to right, #009245 0%, #FCEE21 100%)"
+              title="Karma - Smart Habit Tracker"
+              link="https://karma.launchaco.com/"
+              bg="linear-gradient(to right, #3d7eaa, #ffe47a)"
             >
-            A community for girls.
-            </ProjectCard>
-
-            <ProjectCard
-              title="Question Answer Portal"
-              link="https://github.com/ananya/Q-A-Portal"
-              bg="linear-gradient(to right, #D585FF 0%, #00FFEE 100%)"
-            >
-            A django based discussion portal for college students.
+            A new page chrome extension that helps track both online and offline activities.
+            Karma enables to track habits using heatmap, and you dont need to pay as long as you stick to them.
             </ProjectCard>
             
             <ProjectCard
               title="Pure CSS Pens"
               link="https://github.com/ananya/pure-css-pens"
-              bg="linear-gradient(to right, #009245 0%, #FCEE21 100%)"
+              bg="linear-gradient(to right, #f09819, #edde5d)"
             >
             Collection of Pure CSS Pens.
             </ProjectCard>
@@ -281,27 +293,19 @@ const Index = () => (
           <AboutHero>
             <Avatar src={avatar} alt="John Doe" />
             <AboutSub>
-              I am a second year student at Indian Institute of Information Technology, Allahabad 
+              I am a third year student at Indian Institute of Information Technology, Allahabad 
               pursuing my bachelors in electronics and communication. <br />
               Other than sleeping all day, my interest lies in between web apps and open source. <br />
               So, chase my wildly unnatural dreams coming from a non computer science undergraduate.<br />
-              I am a part of FOSS society of my college where we build cool things like <a href="https://github.com/ananya/qaportal">Question Answer Portal </a> :P <br />
-              I am pretty lucky as I had been a finalist of opencode, an opensource competetion for web, apps and everything else tat matters 
-              to this wild world of CSE.<br />
-              I had previously build <a href="https://github.com/aviary-apps/Pelican">Pelican Facebook</a>, <a href="https://github.com/Anna-Assistant/Anna">Anna Assistant</a>, <a href="https://github.com/ananya/qaportal">Question Answer Portal </a>. I am the founder member of <a href="https://github.com/Girls-Do-Code">Girls Do Code </a>.<br />
-              I sleep a lot coz I miss a lot during the hackathons I participate and the eagerness to see people merge my PR.
+              I am presently serving as the coordinator of FOSS society of my college where we build cool things like <a href="https://github.com/ananya/qaportal">Question Answer Portal </a> :P <br />
+              I had previously build <a href="https://github.com/aviary-apps/Pelican">Pelican Facebook</a>, <a href="https://github.com/Anna-Assistant/Anna">Anna Assistant</a>, <a href="https://karma.launchaco.com/">Karma - Smart Habit Tracker </a>. I am the founder member of <a href="https://github.com/Girls-Do-Code">Girls Do Code </a>.<br />
+              I sleep a lot coz I miss a lot during the hackathons I participate and the due to the eagerness I have to see people merge my PR.
 
             </AboutSub>
           </AboutHero>
-          {/* <AboutDesc>
-            You know the way you feel when you see a picture of two otters holding hands? That's how you're gonna feel
-            every day. My mother cried the day I was born because she knew she’d never be prettier than me. You should
-            make me your campaign manager. I was born for politics. I have great hair and I love lying. Captain? The
-            kids want to know where Paulie the Pigeon is. I told them he got sucked up into an airplane engine, is that
-            all right?
-          </AboutDesc> */}
         </Inner>
       </Content>
+    
       <Divider fill="#23262b" speed={0.2} offset={4}>
         <WaveWrapper>
           <InnerWave>
@@ -318,7 +322,54 @@ const Index = () => (
           </InnerWave>
         </WaveWrapper>
       </Divider>
-      <Content speed={0.4} offset={4}>
+
+      <Content speed={0.4} offset={3.8}>
+      <Inner>
+          <Title>Achivements</Title>
+          <AboutSub><pre>
+          <br />
+          <strong>1. October 2018   1st position at Headout hackathon<br/>
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Made Hazel- Saas deep learning platform.<br/>
+          <br/>
+          2. June 2019      3rd position at WMN hackathon<br/>
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Made getSh*tdone- A last minute exam preparation platform.<br />
+          <br/>
+          3. October 2017   Top #3 product in product hunt, 3rd position in IIITA Hacks , <br />
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Made ANNA- AI assistant chrome extension<br />
+          <br/>
+          4. April 2018     Featured product Product Hunt, 2nd position in Girls Hack IIITA<br/> 
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Made Pelican- Chrome extension to make facebook minimal and focused<br />
+          <br/>
+          5. February 2019  Top #4 product in product hunt<br />
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Made Karma - Smart Habit Tracker<br/>
+          <br/>
+          6. February 2017  OpenCode , Was in Top 5 participants by contributing to<br />
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;40+ issues under 5+ projects<br/>
+          </strong>
+          </pre>
+          </AboutSub>
+        </Inner>
+      </Content>
+    
+      <Divider fill="#23262b" speed={0.2} offset={4}>
+        <WaveWrapper>
+          <InnerWave>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 338.05" preserveAspectRatio="none">
+              <path className={waveAnimation}>
+                <animate
+                  attributeName="d"
+                  values="M 0 100 Q 250 50 400 200 Q 550 350 800 300 L 800 0 L 0 0 L 0 100 Z;M 0 100 Q 200 150 400 200 Q 600 250 800 300 L 800 0 L 0 0 L 0 100 Z;M 0 100 Q 150 350 400 200 Q 650 50 800 300 L 800 0 L 0 0 L 0 100 Z"
+                  repeatCount="indefinite"
+                  dur="30s"
+                />
+              </path>
+            </svg>
+          </InnerWave>
+        </WaveWrapper>
+      </Divider>
+
+
+      <Content speed={0.4} offset={4.3}>
         <Inner>
           <Title>Meet me at</Title>
           <ContactText>
@@ -327,10 +378,7 @@ const Index = () => (
             <a href="https://medium.com/@ananyaagrawal125">Medium</a>
           </ContactText>
         </Inner>
-        {/* <Footer>
-          &copy; 2018 by Gatsby Starter Portfolio Cara.{' '}
-          <a href="https://github.com/LeKoArts/gatsby-starter-portfolio-cara">Github Repository</a>.
-        </Footer> */}
+
       </Content>
       <Divider speed={0.1} offset={4}>
         <UpDown>
