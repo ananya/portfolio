@@ -166,7 +166,7 @@ const Index = () => (
             Hey, <br />I am Ananya Agrawal.
           </BigTitle>
           <Subtitle>Student | Open-source Enthusiast</Subtitle>
-          <Subtitle>Wanna Hire me? Here's <a target="_blank" href="https://drive.google.com/file/d/11KeH04fybFv-_nBYbVFGdQ7juGS3ZeLK/view?usp=sharing">My Resume</a></Subtitle>
+          <Subtitle>Wanna Hire me? Here's <a target="_blank" href="https://drive.google.com/file/d/14E04KKsHqxdrMFhP7YtDTJGsnireBBAv/view?usp=sharing">My Resume</a></Subtitle>
         </Hero>
       </Content>
       <DividerMiddle
