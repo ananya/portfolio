@@ -106,7 +106,7 @@ const Avatar = styled.img`
 `;
 
 const AboutSub = styled.span`
-  ${tw('text-black pt-12 lg:pt-0 lg:pl-12 text-1xl lg:text-2xl xl:text-1xl')};
+  ${tw('text-white pt-12 lg:pt-0 lg:pl-12 text-1xl lg:text-2xl xl:text-1xl')};
 `;
 
 const AboutDesc = styled.p`
@@ -135,7 +135,7 @@ const Index = () => (
     <Parallax pages={5}>
       <Divider speed={0.2} offset={0}>
         <UpDown>
-          <SVG icon="triangle" className={hidden} width={48} stroke={colors.orange} left="10%" top="20%" />
+          <SVG icon="triangle" className={hidden} width={48} stroke={colors.pink} left="10%" top="20%" />
           <SVG icon="hexa" width={48} stroke={colors.red} left="60%" top="70%" />
           <SVG icon="box" width={6} fill={colors['grey-darker']} left="60%" top="15%" />
         </UpDown>
@@ -170,7 +170,7 @@ const Index = () => (
         </Hero>
       </Content>
       <DividerMiddle
-        bg="linear-gradient(to right, #c1bdbd 0%, #424040 100%)"
+        bg="linear-gradient(to right, #141821 0%, #9c9fa6 100%)"
         speed={-0.2}
         offset={1.1}
         factor={2}
@@ -267,7 +267,9 @@ const Index = () => (
         <SVG icon="hexa" width={16} stroke={colors.red} left="75%" top="30%" />
         <SVG icon="hexa" width={8} stroke={colors.yellow} left="80%" top="70%" />
       </Divider>
-      <Divider bg="#c1bdbd" clipPath="polygon(0 16%, 100% 4%, 100% 82%, 0 94%)" speed={0.2} offset={3} />
+
+      {/* about ka bg */}
+      <Divider bg="#41454d" clipPath="polygon(0 16%, 100% 4%, 100% 82%, 0 94%)" speed={0.2} offset={3} />
       <Divider speed={0.1} offset={3}>
         <UpDown>
           <SVG icon="box" className={hidden} width={6} fill={colors.blue} left="50%" top="75%" />
@@ -291,7 +293,7 @@ const Index = () => (
         <Inner>
           <Title>About</Title>
           <AboutHero>
-            <Avatar src={avatar} alt="John Doe" />
+            <Avatar src={avatar} alt="Ananya" />
             <AboutSub>
               I am a third year student at Indian Institute of Information Technology, Allahabad 
               pursuing my bachelors in electronics and communication. <br />
