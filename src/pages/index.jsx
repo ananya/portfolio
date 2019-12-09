@@ -107,6 +107,11 @@ const Avatar = styled.img`
 
 const AboutSub = styled.span`
   ${tw('text-white pt-12 lg:pt-0 lg:pl-12 text-1xl lg:text-2xl xl:text-1xl')};
+  
+  a {
+    color: #e07628;
+    text-decoration: none;
+  }
 `;
 
 const AboutDesc = styled.p`
@@ -269,8 +274,8 @@ const Index = () => (
       </Divider>
 
       {/* about ka bg */}
-      <Divider bg="#41454d" clipPath="polygon(0 16%, 100% 4%, 100% 82%, 0 94%)" speed={0.2} offset={3} />
-      <Divider speed={0.1} offset={3}>
+      <Divider bg="#41454d" clipPath="polygon(0 16%, 100% 4%, 100% 82%, 0 94%)" speed={0.2} offset={2.9} />
+      <Divider speed={0.1} offset={2.95}>
         <UpDown>
           <SVG icon="box" className={hidden} width={6} fill={colors.blue} left="50%" top="75%" />
           <SVG icon="upDown" className={hidden} width={8} fill={colors['grey-darkest']} left="70%" top="20%" />
@@ -289,7 +294,7 @@ const Index = () => (
         <SVG icon="box" width={12} fill={colors['grey-darkest']} left="20%" top="30%" />
         <SVG icon="hexa" width={8} stroke={colors['grey-darkest']} left="80%" top="70%" />
       </Divider>
-      <Content speed={0.4} offset={3}>
+      <Content speed={0.4} offset={2.95}>
         <Inner>
           <Title>About</Title>
           <AboutHero>
@@ -300,8 +305,8 @@ const Index = () => (
               Other than sleeping all day, my interest lies in between web apps and open source. <br />
               So, chase my wildly unnatural dreams coming from a non computer science undergraduate.<br />
               I am presently serving as the coordinator of FOSS society of my college where we build cool things like <a href="https://github.com/ananya/qaportal">Question Answer Portal </a> :P <br />
-              I had previously build <a href="https://github.com/aviary-apps/Pelican">Pelican Facebook</a>, <a href="https://github.com/Anna-Assistant/Anna">Anna Assistant</a>, <a href="https://karma.launchaco.com/">Karma - Smart Habit Tracker </a>. I am the founder member of <a href="https://github.com/Girls-Do-Code">Girls Do Code </a>.<br />
-              I sleep a lot coz I miss a lot during the hackathons I participate and the due to the eagerness I have to see people merge my PR.
+              I had previously build <a href="https://github.com/gauthamzz/hazel">Hazel</a>, <a href="https://github.com/Anna-Assistant/Anna">Anna Assistant</a>, <a href="https://github.com/aviary-apps/Pelican">Pelican Facebook</a>, <a href="https://karma.launchaco.com/">Karma Habit Tracker</a>. <br/>I am the founder member of <a href="https://github.com/Girls-Do-Code">Girls Do Code </a>.<br />
+              I sleep a lot because I miss a lot during the hackathons and due to the eagerness I have to see my PR getting merged.
 
             </AboutSub>
           </AboutHero>
@@ -325,7 +330,8 @@ const Index = () => (
         </WaveWrapper>
       </Divider>
 
-      <Content speed={0.4} offset={3.8}>
+
+      <Content speed={0.4} offset={3.75}>
       <Inner>
           <Title>Achivements</Title>
           <AboutSub><pre>
