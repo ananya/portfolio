@@ -345,7 +345,7 @@ const Index = () => (
           3. October 2017   Top #3 product in product hunt, 3rd position in IIITA Hacks , <br />
           &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Made ANNA- AI assistant chrome extension<br />
           <br/>
-          4. April 2018     Featured product Product Hunt, 2nd position in Girls Hack IIITA<br/> 
+          4. April 2018     Featured product Product Hunt, 2nd position in Girls Hack IIITA.<br/> 
           &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Made Pelican- Chrome extension to make facebook minimal and focused<br />
           <br/>
           5. February 2019  Top #4 product in product hunt<br />
